@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/jpg" href="./assets/logo.png">
+    <title>Congratulations!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #82d7fa; /* Sky Blue */
+            background-image: url(https://cdn.pixabay.com/animation/2023/08/17/08/51/08-51-41-992_512.gif);
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* Full viewport height */
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #1f3a93; /* Dark Blue */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 24px;
+            color: #1f3a93; /* Dark Blue */
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #1f3a93; /* Dark Blue */
+            color: #ffffff; /* White */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #4682b4; /* Light Blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Tahniah!</h1>
+        <p>Anda telah berjaya menguasai topik Kata Perintah.</p>
+        <button class="btn" onclick="goToHome()">Kembali Ke Halaman</button>
+    </div>
+
+    <script>
+        function goToHome() {
+            window.location.href = './home.html'; // Update the path to your home page
+        }
+    </script>
+</body>
+</html>
